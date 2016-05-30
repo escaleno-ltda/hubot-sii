@@ -1,6 +1,6 @@
 {
   "name": "hubot-sii",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Script de hubot para crear boleta de honorarios",
   "main": "src",
   "scripts": {
