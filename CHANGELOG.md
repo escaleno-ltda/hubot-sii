@@ -1,3 +1,13 @@
+#### 0.1.1 (2016-5-30)
+
+##### Chores
+
+* **package:** update sii to version 0.0.4 ([34db743a](https://github.com/lgaticaq/hubot-sii/commit/34db743a8b643e3c7b29285655418777548bab1a))
+
+##### Documentation Changes
+
+* **readme:** Add examples and license ([7280dd4d](https://github.com/lgaticaq/hubot-sii/commit/7280dd4d03c7a92e7f8d2b977ef3d13e701d67f4))
+
 ### 0.1.0 (2016-5-30)
 
 ##### Chores
