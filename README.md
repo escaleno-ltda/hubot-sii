@@ -8,11 +8,19 @@
 [![dependency Status](https://img.shields.io/david/lgaticaq/hubot-sii.svg?style=flat-square)](https://david-dm.org/lgaticaq/hubot-sii#info=dependencies)
 [![devDependency Status](https://img.shields.io/david/dev/lgaticaq/hubot-sii.svg?style=flat-square)](https://david-dm.org/lgaticaq/hubot-sii#info=devDependencies)
 
-Script de hubot para crear boleta de honorarios
+> Script de hubot para crear boleta de honorarios
 
-## Installation
+## Instalación
 ```bash
 npm i -S hubot-sii
 ```
 
-add `["hubot-sii"]` to `external-scripts.json`.
+agregar `["hubot-sii"]` a `external-scripts.json`.
+
+## Ejemplos
+`hubot sii boleta 11111111-1 myPassword 50000` -> `Crear boleta de 50.000`
+
+
+## License
+
+[MIT](https://tldrlegal.com/license/mit-license)
