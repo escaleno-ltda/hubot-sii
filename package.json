@@ -36,6 +36,7 @@
     "coveralls": "^2.11.9",
     "hubot-test-helper": "^1.4.4",
     "istanbul": "^0.4.3",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.9"
   }
 }
