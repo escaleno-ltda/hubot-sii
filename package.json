@@ -27,7 +27,7 @@
   "homepage": "https://github.com/lgaticaq/hubot-sii#readme",
   "dependencies": {
     "rutjs": "^0.1.1",
-    "sii": "0.0.2"
+    "sii": "0.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
