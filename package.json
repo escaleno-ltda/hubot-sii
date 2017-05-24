@@ -11,7 +11,9 @@
     "codeclimate": "codeclimate-test-reporter < coverage/lcov.info",
     "release:major": "changelog -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags && npm publish",
     "release:minor": "changelog -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags && npm publish",
-    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags && npm publish"
+    "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags && npm publish",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=4"
@@ -32,7 +34,8 @@
   "homepage": "https://github.com/lgaticaq/hubot-sii#readme",
   "dependencies": {
     "rutjs": "^0.1.1",
-    "sii": "0.0.4"
+    "sii": "0.0.4",
+    "snyk": "^1.30.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -46,5 +49,6 @@
     "istanbul": "^0.4.3",
     "mocha": "^3.0.0",
     "proxyquire": "^1.7.9"
-  }
+  },
+  "snyk": true
 }
